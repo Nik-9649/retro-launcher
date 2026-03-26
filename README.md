@@ -1,7 +1,7 @@
 # Retro Launcher
 
 [![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-PolyForm--Noncommercial--1.0.0-lightgrey.svg)](LICENSE)
 
 A terminal-based retro game launcher and library manager with integrated catalog browsing, metadata resolution, and artwork support.
 
@@ -253,7 +253,9 @@ cargo test
 
 ## License
 
-MIT License - see LICENSE file for details
+PolyForm Noncommercial License 1.0.0 - see [LICENSE](LICENSE) file for details.
+
+This software is available for noncommercial use, including personal use, research, and use by charitable organizations, educational institutions, and government entities. Commercial use requires a separate license.
 
 ## Acknowledgments
 
