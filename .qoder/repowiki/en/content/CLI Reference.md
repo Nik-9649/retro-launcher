@@ -210,10 +210,10 @@ retro-launcher config
 #### Output
 ```
 Configuration Paths:
-  Config directory: /Users/<user>/Library/Application Support/dev.OpenAI.retro-launcher
-  Data directory:   /Users/<user>/Library/Application Support/dev.OpenAI.retro-launcher
-  Database:         /Users/<user>/Library/Application Support/dev.OpenAI.retro-launcher/library.sqlite3
-  Downloads:        /Users/<user>/Library/Application Support/dev.OpenAI.retro-launcher/downloads
+  Config directory: /Users/<user>/Library/Application Support/dev.retrolauncher.retro-launcher
+  Data directory:   /Users/<user>/Library/Application Support/dev.retrolauncher.retro-launcher
+  Database:         /Users/<user>/Library/Application Support/dev.retrolauncher.retro-launcher/library.sqlite3
+  Downloads:        /Users/<user>/Library/Application Support/dev.retrolauncher.retro-launcher/downloads
 
 Settings:
   Scan on startup:  true

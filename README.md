@@ -34,7 +34,7 @@ A terminal-based retro game launcher and library manager with integrated catalog
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/retro-launcher.git
+git clone https://github.com/Nik-9649/retro-launcher.git
 cd retro-launcher
 
 # Build and install
@@ -53,7 +53,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 cargo install retro-launcher
 
 # Or build from source
-git clone https://github.com/yourusername/retro-launcher.git
+git clone https://github.com/Nik-9649/retro-launcher.git
 cd retro-launcher
 cargo build --release
 sudo cp target/release/retro-launcher /usr/local/bin/
@@ -69,7 +69,7 @@ sudo apt-get install libsqlite3-dev
 cargo install retro-launcher
 
 # Or use the pre-built binary
-wget https://github.com/yourusername/retro-launcher/releases/download/v0.1.0/retro-launcher-linux-x64
+wget https://github.com/Nik-9649/retro-launcher/releases/download/v0.1.0/retro-launcher-linux-x64
 chmod +x retro-launcher-linux-x64
 sudo mv retro-launcher-linux-x64 /usr/local/bin/retro-launcher
 ```
@@ -92,7 +92,7 @@ cargo install retro-launcher
    ```
 
 2. **Configure ROM directories** (optional):
-   Edit `~/.config/dev.OpenAI.retro-launcher/config.toml`
+   Edit `~/.config/dev.retrolauncher.retro-launcher/config.toml`
 
 3. **Scan for ROMs**:
    Press `s` in the TUI or run:

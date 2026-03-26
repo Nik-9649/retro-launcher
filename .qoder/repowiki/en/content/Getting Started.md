@@ -97,9 +97,9 @@ Notes:
 On first run, the application creates configuration and data directories and initializes the database. It also scans configured ROM roots automatically if enabled.
 
 - Configuration location:
-  - macOS: `~/Library/Application Support/dev.OpenAI.retro-launcher/`
-  - Linux: `~/.config/dev.OpenAI.retro-launcher/` or `~/.local/share/dev.OpenAI.retro-launcher/`
-  - Windows: `%APPDATA%\dev\OpenAI\retro-launcher\`
+  - macOS: `~/Library/Application Support/dev.retrolauncher.retro-launcher/`
+  - Linux: `~/.config/dev.retrolauncher.retro-launcher/` or `~/.local/share/dev.retrolauncher.retro-launcher/`
+  - Windows: `%APPDATA%\dev\retrolauncher\retro-launcher\`
 - Data and downloads live under the data directory.
 - The database file is named `library.sqlite3`.
 
