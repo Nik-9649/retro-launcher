@@ -87,6 +87,7 @@ cargo install retro-launcher
 ## Quick Start
 
 1. **Launch the TUI**:
+
    ```bash
    retro-launcher
    ```
@@ -96,6 +97,7 @@ cargo install retro-launcher
 
 3. **Scan for ROMs**:
    Press `s` in the TUI or run:
+
    ```bash
    retro-launcher scan
    ```
@@ -133,17 +135,17 @@ retro-launcher maintenance --help
 
 ### TUI Navigation
 
-| Key | Action |
-|-----|--------|
-| `q` | Quit |
-| `1/2/3` | Switch tabs (Library/Installed/Browse) |
-| `↑/↓` or `k/j` | Navigate list |
-| `Tab` | Cycle focus |
-| `/` | Search |
-| `Enter` | Launch game / Download |
-| `a` | Add source |
-| `x` | Cancel operation |
-| `?` | Show help |
+| Key            | Action                                 |
+| -------------- | -------------------------------------- |
+| `q`            | Quit                                   |
+| `1/2/3`        | Switch tabs (Library/Installed/Browse) |
+| `↑/↓` or `k/j` | Navigate list                          |
+| `Tab`          | Cycle focus                            |
+| `/`            | Search                                 |
+| `Enter`        | Launch game / Download                 |
+| `a`            | Add source                             |
+| `x`            | Cancel operation                       |
+| `?`            | Show help                              |
 
 ## Configuration
 
@@ -175,17 +177,17 @@ emulator = "Fceux"
 
 ## Supported Platforms
 
-| Platform | Extensions | Default Emulator |
-|----------|-----------|------------------|
-| Game Boy | `.gb` | mGBA |
-| Game Boy Color | `.gbc` | mGBA |
-| Game Boy Advance | `.gba` | mGBA |
-| NES | `.nes` | FCEUX |
-| SNES | `.sfc`, `.smc` | RetroArch |
-| SEGA Genesis | `.gen`, `.md`, `.smd` | RetroArch |
-| Nintendo 64 | `.n64`, `.z64`, `.v64` | RetroArch |
-| PlayStation 1 | `.cue`, `.chd`, `.m3u`, `.bin`, `.img`, `.iso` | Mednafen |
-| Nintendo DS | `.nds` | RetroArch |
+| Platform         | Extensions                                     | Default Emulator |
+| ---------------- | ---------------------------------------------- | ---------------- |
+| Game Boy         | `.gb`                                          | mGBA             |
+| Game Boy Color   | `.gbc`                                         | mGBA             |
+| Game Boy Advance | `.gba`                                         | mGBA             |
+| NES              | `.nes`                                         | FCEUX            |
+| SNES             | `.sfc`, `.smc`                                 | RetroArch        |
+| SEGA Genesis     | `.gen`, `.md`, `.smd`                          | RetroArch        |
+| Nintendo 64      | `.n64`, `.z64`, `.v64`                         | RetroArch        |
+| PlayStation 1    | `.cue`, `.chd`, `.m3u`, `.bin`, `.img`, `.iso` | Mednafen         |
+| Nintendo DS      | `.nds`                                         | RetroArch        |
 
 ## Troubleshooting
 
@@ -210,11 +212,13 @@ sudo apt-get install mgba-sdl mednafen fceux retroarch
 ### Database corruption
 
 Run repair command:
+
 ```bash
 retro-launcher maintenance repair
 ```
 
 For complete reset:
+
 ```bash
 retro-launcher maintenance reset-all
 ```
@@ -222,6 +226,7 @@ retro-launcher maintenance reset-all
 ### Artwork not loading
 
 Clear artwork cache:
+
 ```bash
 retro-launcher maintenance clear-metadata
 ```
@@ -253,4 +258,4 @@ MIT License - see LICENSE file for details
 ## Acknowledgments
 
 - Built with [Ratatui](https://github.com/ratatui-org/ratatui) for the TUI
-- Uses [EmuLand](https://emuland.org/) catalog for game metadata
+- Uses [EmuLand](http://emu-land.net/) catalog for game metadata
