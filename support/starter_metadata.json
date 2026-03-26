@@ -1,0 +1,34 @@
+[
+  {
+    "canonical_title": "Airball",
+    "platform": "GameBoyAdvance",
+    "aliases": ["airball"],
+    "tags": ["Homebrew", "Puzzle", "Retrobrews"],
+    "genres": ["Puzzle"],
+    "artwork_url": null
+  },
+  {
+    "canonical_title": "Battle Picross",
+    "platform": "GameBoyAdvance",
+    "aliases": ["battle picross", "battlepicross"],
+    "tags": ["Homebrew", "Puzzle", "Retrobrews"],
+    "genres": ["Puzzle"],
+    "artwork_url": null
+  },
+  {
+    "canonical_title": "Cyler",
+    "platform": "GameBoyAdvance",
+    "aliases": ["cyler"],
+    "tags": ["Homebrew", "Action", "Retrobrews"],
+    "genres": ["Action"],
+    "artwork_url": null
+  },
+  {
+    "canonical_title": "3 Weeks in Paradise",
+    "platform": "GameBoyAdvance",
+    "aliases": ["3 weeks in paradise", "three weeks in paradise"],
+    "tags": ["Homebrew", "Adventure", "Retrobrews"],
+    "genres": ["Adventure"],
+    "artwork_url": null
+  }
+]
